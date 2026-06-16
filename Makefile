@@ -1,21 +1,14 @@
 # -----------------------------------------------------------------------------
-# CONFIGURACIÓN DE RUTAS (Equilibrio Local/Externo para no ensuciar el repositorio de git, GG)
+# CONFIGURACIÓN DE RUTAS
 # -----------------------------------------------------------------------------
-USER_HOME := $(shell eval echo ~$$USER)
-
-# Raíz del proyecto (ej: ~/Dev/atomic-linux)
+USER_HOME   := $(shell eval echo ~$$USER)
 PROJECT_DIR := $(shell pwd)
-
-# Carpeta de trabajo PESADA (Externa al proyecto para no ensuciar el repositorio de git, me lo agradeceras después, jejejeje)
-WORK_DIR := $(USER_HOME)/archiso-build
-
-# Carpeta de salida para las ISOs (Interna del proyecto ~/Dev/atomic-linux/out o ~/atomic-linux/out)
-OUT_DIR  := $(PROJECT_DIR)/out
-
-SUDO     := sudo
+WORK_DIR    := $(USER_HOME)/archiso-build
+OUT_DIR     := $(PROJECT_DIR)/out
+SUDO        := sudo
 
 # -----------------------------------------------------------------------------
-# PALETA DE COLORES (Estética de la mas alta calidad ;p)
+# PALETA DE COLORES (Estética de la más alta calidad ;P)
 # -----------------------------------------------------------------------------
 CLR_RESET   := \033[0m
 CLR_CYAN    := \033[1;36m
@@ -25,31 +18,27 @@ CLR_RED     := \033[1;31m
 CLR_MAGENTA := \033[1;35m
 CLR_BG_DARK := \033[48;5;234m
 
-# -----------------------------------------------------------------------------
-# BANNER ASCII:
-# -----------------------------------------------------------------------------
-define ATOMIC_BANNER
-$(CLR_CYAN) ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ $(CLR_RESET)
-$(CLR_MAGENTA)   █████╗ ████████╗ ██████╗ ███╗   ███╗██╗ ██████╗    $(CLR_CYAN)██╗     ██╗███╗   ██╗██╗   ██╗██╗  ██╗$(CLR_RESET)
-$(CLR_MAGENTA)  ██╔══██╗╚══██╔══╝██╔═══██╗████╗ ████║██║██╔════╝    $(CLR_CYAN)██║     ██║████╗  ██║██║   ██║╚██╗██╔╝$(CLR_RESET)
-$(CLR_MAGENTA)  ███████║   ██║   ██║   ██║██╔████╔██║██║██║         $(CLR_CYAN)██║     ██║██╔██╗ ██║██║   ██║ ╚███╔╝ $(CLR_RESET)
-$(CLR_MAGENTA)  ██╔══██║   ██║   ██║   ██║██║╚██╔╝██║██║██║         $(CLR_CYAN)██║     ██║██║╚██╗██║██║   ██║ ██╔██╗ $(CLR_RESET)
-$(CLR_MAGENTA)  ██║  ██║   ██║   ╚██████╔╝██║ ╚═╝ ██║██║╚██████╗    $(CLR_CYAN)███████╗██║██║ ╚████║╚██████╔╝██╔╝ ██╗$(CLR_RESET)
-$(CLR_MAGENTA)  ╚═╝  ╚═╝   ╚═╝    ╚═════╝ ╚═╝     ╚═╝╚═╝ ╚═════╝    $(CLR_CYAN)╚══════╝╚═╝╚═╝  ╚═══╝ ╚═════╝ ╚═╝  ╚═╝$(CLR_RESET)
-$(CLR_CYAN) ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ $(CLR_RESET)
-$(CLR_GREEN)  ⚛  Código Fuente:$(CLR_RESET) $(PROJECT_DIR)
-$(CLR_GREEN)  🛠️  Caché de Compilación (Externa):$(CLR_RESET) $(WORK_DIR)/
-$(CLR_GREEN)  📦 Destino de la ISO (Local):$(CLR_RESET) $(OUT_DIR)/
-$(CLR_CYAN) ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ $(CLR_RESET)
-endef
-
 .PHONY: all clean iso info directories
 
 all: info iso
 
+# -----------------------------------------------------------------------------
+# IMPRESIÓN DEL BANNER (usando printf para evitar ciertos... errores, jejejeje)
+# -----------------------------------------------------------------------------
 info:
 	@clear
-	@echo -e "$(subst $(newline),\n,$(ATOMIC_BANNER))"
+	@printf "$(CLR_CYAN) ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ $(CLR_RESET)\n"
+	@printf "$(CLR_MAGENTA)   █████╗ ████████╗ ██████╗ ███╗   ███╗██╗ ██████╗    $(CLR_CYAN)██╗     ██╗███╗   ██╗██╗   ██╗██╗  ██╗$(CLR_RESET)\n"
+	@printf "$(CLR_MAGENTA)  ██╔══██╗╚══██╔══╝██╔═══██╗████╗ ████║██║██╔════╝    $(CLR_CYAN)██║     ██║████╗  ██║██║   ██║╚██╗██╔╝$(CLR_RESET)\n"
+	@printf "$(CLR_MAGENTA)  ███████║   ██║   ██║   ██║██╔████╔██║██║██║         $(CLR_CYAN)██║     ██║██╔██╗ ██║██║   ██║ ╚███╔╝ $(CLR_RESET)\n"
+	@printf "$(CLR_MAGENTA)  ██╔══██║   ██║   ██║   ██║██║╚██╔╝██║██║██║         $(CLR_CYAN)██║     ██║██║╚██╗██║██║   ██║ ██╔██╗ $(CLR_RESET)\n"
+	@printf "$(CLR_MAGENTA)  ██║  ██║   ██║   ╚██████╔╝██║ ╚═╝ ██║██║╚██████╗    $(CLR_CYAN)███████╗██║██║ ╚████║╚██████╔╝██╔╝ ██╗$(CLR_RESET)\n"
+	@printf "$(CLR_MAGENTA)  ╚═╝  ╚═╝   ╚═╝    ╚═════╝ ╚═╝     ╚═╝╚═╝ ╚═════╝    $(CLR_CYAN)╚══════╝╚═╝╚═╝  ╚═══╝ ╚═════╝ ╚═╝  ╚═╝$(CLR_RESET)\n"
+	@printf "$(CLR_CYAN) ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ $(CLR_RESET)\n"
+	@printf "$(CLR_GREEN)  ⚛  Código Fuente:$(CLR_RESET) %s\n" "$(PROJECT_DIR)"
+	@printf "$(CLR_GREEN)  🛠️  Caché de Compilación (Externa):$(CLR_RESET) %s/\n" "$(WORK_DIR)"
+	@printf "$(CLR_GREEN)  📦 Destino de la ISO (Local):$(CLR_RESET) %s/\n" "$(OUT_DIR)"
+	@printf "$(CLR_CYAN) ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ $(CLR_RESET)\n"
 
 directories:
 	@mkdir -p $(WORK_DIR)
@@ -63,7 +52,6 @@ iso: info directories
 	@echo -e "\n$(CLR_YELLOW)🚀 Iniciando Atomic Build Engine...$(CLR_RESET)"
 	@echo -e "$(CLR_BG_DARK)$(CLR_RED)⚠️  Se requieren privilegios sudo para montar los entornos chroot:$(CLR_RESET)"
 	
-	@# Ejecuta mkarchiso enviando la basura a ~/archiso-build y la ISO final a tu carpeta out/
 	@$(SUDO) mkarchiso -v -w $(WORK_DIR) -o $(OUT_DIR) $(PROJECT_DIR)
 	
 	@if [ $$? -eq 0 ]; then \
