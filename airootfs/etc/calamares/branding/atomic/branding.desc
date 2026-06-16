@@ -12,6 +12,9 @@ strings:
     bootloaderEntryName: "Atomic"
     productUrl:          "https://github.com/Diamantito-cup/atomic-linux"
     supportUrl:          "https://github.com/Diamantito-cup/atomic-linux"
+    welcomeTitle:        "Bienvenido a Atomic Linux"
+    welcomeSubtitle:     "El sistema operativo Linux moderno para usuarios avanzados"
+    welcomeMessage:      "Tu aventura Linux comienza aquí. Preparándote para un sistema Hyprland optimizado."
 
 images:
     productLogo:         "logo.png"
@@ -20,6 +23,10 @@ images:
 slideshow:               "show.qml"
 
 style:
-    sidebarBackground:    "#181825"
-    sidebarText:          "#cdd6f4"
-    sidebarTextSelect:    "#89b4fa"
+    sidebarBackground:    "#0d0d14"
+    sidebarText:          "#f5f5f5"
+    sidebarTextSelect:    "#00d9ff"
+    accentColor:          "#00d9ff"
+    successColor:         "#00ff9d"
+    warningColor:         "#ffcc00"
+    errorColor:           "#ff3b30"
