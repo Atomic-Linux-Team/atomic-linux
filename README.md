@@ -3,7 +3,7 @@
 ---
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Diamantito-cup/atomic-linux/main/assets/logo.png" alt="Atomic Linux Logo" />
+<img width="225" height="225" alt="logo" src="https://github.com/user-attachments/assets/d9f3e8e0-f0a7-42b3-a671-9502c4ae6b69" />
 </p>
 
 > **Una experiencia de escritorio vanguardista y altamente optimizada basada en Arch Linux.**
