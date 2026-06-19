@@ -12,9 +12,11 @@
   <a href="https://www.gnu.org/licenses/gpl-3.0"><img src="https://img.shields.io/badge/License-GPLv3-f38ba8?style=flat-square" alt="License: GPL v3" /></a>
   <img src="https://img.shields.io/badge/Base-Arch%20Linux-89b4fa?style=flat-square&logo=arch-linux" alt="Base-Arch" />
   <img src="https://img.shields.io/badge/WM-Hyprland-26a69a?style=flat-square&logo=wayland" alt="WM-Hyprland" />
-<a href="https://github.com/Diamantito-cup/atomic-linux/releases"><img src="https://img.shields.io/github/v/release/Diamantito-cup/atomic-linux?style=flat-square&color=cba6f7&label=versi%C3%B3n" alt="Versión" /></a>
+  <a href="https://github.com/Diamantito-cup/atomic-linux/releases"><img src="https://img.shields.io/github/v/release/Diamantito-cup/atomic-linux?style=flat-square&color=cba6f7&label=versi%C3%B3n" alt="Versión" /></a>
   <a href="https://github.com/Diamantito-cup/atomic-linux/stargazers"><img src="https://img.shields.io/github/stars/Diamantito-cup/atomic-linux?style=flat-square&color=f9e2af" alt="Estrellas" /></a>
   <a href="https://github.com/Diamantito-cup/atomic-linux/graphs/contributors"><img src="https://img.shields.io/github/contributors/Diamantito-cup/atomic-linux?style=flat-square&color=a6e3a1&label=colaboradores" alt="Colaboradores" /></a>
+  <a href="https://www.patreon.com/cw/Atomic_Cathedral"><img src="https://img.shields.io/badge/Patreon-Apóyame-F96854?style=flat-square&logo=patreon&logoColor=white" alt="Patreon" /></a>
+  <a href="https://discord.gg/sXP7zAhPy"><img src="https://img.shields.io/badge/Discord-Únete_al_Server-5865F2?style=flat-square&logo=discord&logoColor=white" alt="Discord" /></a>
 </p>
 
 Atomic linux busca ser una opcion preconfigurada y "amigable" con el usuario, sin perder la potencia de arch linux, Atomic Linux trae preconfigurado un entorno hyprland vanguardista (con Lua), Brain_Shell (repositorio externo) y las herramientas necesarias para que funcione como un sistema estable y perfecto para aquellos devs que quieran una estetica anime, estilizar su escritorio y trbajar facilmente, ya que Atomic Linux ofrece software de desarrollo preinstalado (como VSCode, Onlyoffice, Zen-Browser y Yazi), que busca hacer sentir comodo al usuario
