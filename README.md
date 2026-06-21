@@ -1,4 +1,4 @@
-<h3 align="center">Sobre el Atomic-Linux Project</h3>
+<h1 align="center">Sobre el Atomic-Linux Project</h1>
 
 ---
 
@@ -6,7 +6,7 @@
 <img width="225" height="225" alt="logo" src="https://github.com/user-attachments/assets/d9f3e8e0-f0a7-42b3-a671-9502c4ae6b69" />
 </p>
 
-> **Una experiencia de escritorio vanguardista y altamente optimizada basada en Arch Linux.**
+> _**Una experiencia de escritorio vanguardista y altamente optimizada basada en Arch Linux.**_
 
 <p align="center">
   <a href="https://www.gnu.org/licenses/gpl-3.0"><img src="https://img.shields.io/badge/License-GPLv3-f38ba8?style=flat-square" alt="License: GPL v3" /></a>
@@ -19,21 +19,21 @@
   <a href="https://discord.gg/sXP7zAhPy"><img src="https://img.shields.io/badge/Discord-Únete_al_Server-5865F2?style=flat-square&logo=discord&logoColor=white" alt="Discord" /></a>
 </p>
 
-Atomic linux busca ser una opcion preconfigurada y "amigable" con el usuario, sin perder la potencia de arch linux, Atomic Linux trae preconfigurado un entorno hyprland vanguardista (con Lua), Brain_Shell (repositorio externo) y las herramientas necesarias para que funcione como un sistema estable y perfecto para aquellos devs que quieran una estetica anime, estilizar su escritorio y trbajar facilmente, ya que Atomic Linux ofrece software de desarrollo preinstalado (como VSCode, Onlyoffice, Zen-Browser y Yazi), que busca hacer sentir comodo al usuario
+Atomic linux busca ser una opcion preconfigurada y "amigable" con el usuario, sin perder la potencia de arch linux, Atomic Linux trae preconfigurado un entorno hyprland vanguardista (con Lua), Brain_Shell (repositorio externo) y las herramientas necesarias para que funcione como un sistema estable y perfecto para aquellos devs que quieran una estetica anime, estilizar su escritorio y trbajar facilmente, ya que Atomic Linux ofrece software de desarrollo preinstalado (como VSCode, Onlyoffice, Zen-Browser y Yazi), que busca hacer sentir cómodo al usuario
 
 ---
 
-## 👁️ El Entorno Visual
+# 👁️ El Entorno Visual
 
 Atomic Linux no es solo otra distribución; es un entorno de trabajo pensado para el rendimiento y la estética ciberpunk moderna. Impulsado por el compositor dinámico **Hyprland** y la recien lanzada **Brain_Shell** (desarrollada nativamente sobre Quickshell), ofrece transiciones fluidas, desenfoques avanzados y una cohesión visual total en GTK4/Libadwaita.
 
-### 📸 Pre visualización
+## 📸 Pre visualización
 
 https://github.com/user-attachments/assets/24ab2d8e-0f31-47fa-8a56-c69094f4c050
 
 ---
 
-## ✨ Características Principales
+# ✨ Características Principales
 
 * **🚀 Rendimiento Atómico:** ISO optimizada al extremo (menos de 4.0 GB) con compresión XZ avanzada para un arranque ultra rápido.
 * **🧠 Brain_Shell Integrada:** Interfaz de vanguardia basada en tecnologías QML/Modernas que sustituye los paneles tradicionales por un entorno inteligente.
@@ -43,12 +43,12 @@ https://github.com/user-attachments/assets/24ab2d8e-0f31-47fa-8a56-c69094f4c050
 
 ---
 
-## 🛠️ Estructura del Repositorio
+# 🛠️ Estructura del Repositorio
 
-El árbol de este repositorio está organizado de forma modular para facilitar su compilación con `archiso`:
+El árbol de este repositorio está organizado de forma modular para facilitar su compilación con `archiso` y la recientemente integrada `Makefile`:
 
 <details>
-<summary>📂 Click para desplegar la estructura completa del repositorio (Árbol Tree)</summary>
+<summary>📂 Click para desplegar la estructura completa del repositorio</summary>
   
 ```text
 📦 Estructura del Proyecto (Ejes Principales)
@@ -168,7 +168,7 @@ El árbol de este repositorio está organizado de forma modular para facilitar s
 
 ---
 
-## Componentes integrados
+# Componentes integrados
 
 | Componente | Tipo de Paquete | Función en Atomic Linux |
 | :--- | :--- | :--- |
@@ -182,11 +182,25 @@ El árbol de este repositorio está organizado de forma modular para facilitar s
 
 ---
 
-## Colaboradores 🫂
-[@Diamantito-cup](https://github.com/Diamantito-cup) -- Desarrollador principal
+<h1 align="center">Estrellas del repositorio</h1>
 
-[@Brainitech](https://github.com/Brainitech) -- Desarrollador de Brain_Shell
+Andamos bien pobres, XD
+
+<a href="https://www.star-history.com/?repos=Diamantito-cup%2Fatomic-linux.git&type=date&legend=bottom-right">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Diamantito-cup/atomic-linux.git&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=Diamantito-cup/atomic-linux.git&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=Diamantito-cup/atomic-linux.git&type=date&legend=top-left" />
+ </picture>
+</a>
+
+---
+
+# Colaboradores 🫂
+#### [@Diamantito-cup](https://github.com/Diamantito-cup) -- Desarrollador principal
+
+#### [@Brainitech](https://github.com/Brainitech) -- Desarrollador de Brain_Shell
 
 Estamos abiertos a sugerencias y recomendaciones, arreglo de bugs o alguna idea para que el sistema sea más seguro, eficiente y entretenido para los demás usuarios.
 
--- Que tenga buen día :3
+> Que tenga buen día :3
