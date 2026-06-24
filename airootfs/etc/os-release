@@ -1,6 +1,6 @@
 NAME="Atomic Linux"
 PRETTY_NAME="Atomic Linux (Live ISO)"
-ID=atomic
+ID=arch
 ID_LIKE=arch
 BUILD_ID=2026.05.29
 ANSI_COLOR="38;2;23;147;209"

@@ -6,8 +6,8 @@ Rectangle {
     width: 800
     height: 520
     gradient: Gradient {
-        GradientStop { position: 0.0; color: "#0d0d14" }
-        GradientStop { position: 1.0; color: "#1a1a2e" }
+        GradientStop { position: 0.0; color: "#060608" }
+        GradientStop { position: 1.0; color: "#0a0a10" }
     }
 
     ColumnLayout {
@@ -17,7 +17,7 @@ Rectangle {
 
         Text {
             text: "🚀 Bienvenido a Atomic Linux"
-            color: "#00d9ff"
+            color: "#bd94ff"
             font.pixelSize: 32
             font.bold: true
             font.family: "FiraCode Nerd Font"
@@ -26,7 +26,7 @@ Rectangle {
 
         Text {
             text: "✨ El sistema operativo Linux moderno para usuarios avanzados"
-            color: "#f5f5f5"
+            color: "#e4e2e8"
             font.pixelSize: 18
             font.bold: true
             anchors.horizontalCenter: parent.horizontalCenter
@@ -35,13 +35,13 @@ Rectangle {
         Rectangle {
             width: 400
             height: 2
-            color: "#00d9ff"
+            color: "#bd94ff"
             anchors.horizontalCenter: parent.horizontalCenter
         }
 
         Text {
             text: "🎯 Preparándote para un sistema Hyprland optimizado y seguro..."
-            color: "#a6adc8"
+            color: "#717180"
             font.pixelSize: 16
             wrapMode: Text.WordWrap
             width: 500
@@ -50,21 +50,21 @@ Rectangle {
 
         Text {
             text: "✅ Sistema de arranque: Limine (rápido y moderno)"
-            color: "#00ff9d"
+            color: "#4ade80"
             font.pixelSize: 14
             anchors.horizontalCenter: parent.horizontalCenter
         }
 
         Text {
             text: "✅ Entorno: Hyprland con Wayland nativo"
-            color: "#00ff9d"
+            color: "#4ade80"
             font.pixelSize: 14
             anchors.horizontalCenter: parent.horizontalCenter
         }
 
         Text {
             text: "✅ Seguridad: Sin rastro del sistema Live"
-            color: "#00ff9d"
+            color: "#4ade80"
             font.pixelSize: 14
             anchors.horizontalCenter: parent.horizontalCenter
         }
