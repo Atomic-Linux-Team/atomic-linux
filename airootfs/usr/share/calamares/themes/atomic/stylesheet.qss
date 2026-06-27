@@ -1,0 +1,96 @@
+/* 
+ * ATOMIC LINUX - ADVANCED CALAMARES THEME 
+ * Aesthetic: Tokyo Night / CachyOS Style
+ */
+
+QMainWindow {
+    background-color: #1a1b26;
+    font-family: "Inter", "Segoe UI", "Ubuntu", sans-serif;
+}
+
+/* Contenedor Principal de Contenido */
+#content {
+    margin-bottom: 80px;
+    background-color: transparent;
+}
+
+/* Barra de Navegación Inferior (The Dock) */
+#sidebar {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    max-width: 900px;
+    height: 65px;
+    background-color: rgba(22, 22, 30, 0.85);
+    border: 1px solid rgba(189, 148, 255, 0.3);
+    border-radius: 32px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(10px);
+}
+
+/* Lista de pasos de navegación */
+#sidebar QListWidget {
+    border: none;
+    background: transparent;
+    orientation: horizontal;
+    padding: 5px;
+}
+
+#sidebar QListWidget::item {
+    color: #a9b1d6;
+    padding: 12px 24px;
+    margin: 4px;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+
+#sidebar QListWidget::item:hover {
+    background-color: rgba(189, 148, 255, 0.1);
+    color: #bd94ff;
+}
+
+#sidebar QListWidget::item:selected {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop:0 #bd94ff, stop:1 #7aa2f7);
+    color: #1a1b26;
+    font-weight: bold;
+    box-shadow: 0 4px 15px rgba(189, 148, 255, 0.4);
+}
+
+/* Botones de Acción (Siguiente/Atrás) */
+QPushButton {
+    background-color: #24283b;
+    color: #c0caf5;
+    border: 1px solid #414868;
+    border-radius: 8px;
+    padding: 8px 20px;
+    font-weight: 500;
+}
+
+QPushButton:hover {
+    background-color: #414868;
+    border-color: #bd94ff;
+}
+
+QPushButton#nextButton {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop:0 #bd94ff, stop:1 #7aa2f7);
+    color: #1a1b26;
+    border: none;
+    font-weight: bold;
+}
+
+QPushButton#nextButton:hover {
+    box-shadow: 0 0 15px rgba(189, 148, 255, 0.6);
+}
+
+/* Títulos y Textos */
+QLabel {
+    color: #c0caf5;
+}
+
+#title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #bd94ff;
+}

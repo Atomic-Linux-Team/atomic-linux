@@ -27,10 +27,8 @@ fi
 # 5. Inicialización de configuraciones base de la sesión live
 # (Aquí puedes añadir comandos rápidos de pre-arranque si fuesen necesarios)
 
-# 6. Ejecución del compositor de ventanas de la distro
-if command -v Hyprland &> /dev/null; then
-    exec Hyprland
-else
-    # Fallback por si ocurre una emergencia en el Live USB
-    exec zsh
-fi
+# 6. Finalización de la configuración del entorno
+# Ya no ejecutamos Hyprland aquí para evitar el login de root.
+# Este script ahora solo prepara el entorno para que el Display Manager lo use.
+echo "Entorno de Atomic Linux preparado para el usuario live."
+
