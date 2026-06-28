@@ -8,17 +8,17 @@ jobs:
   opencode:
     if: |
       contains(github.event.comment.body, '/oc') || contains(github.event.comment.body, '/opencode')
-    runs-on: ubuntu-latest
+    runs-on: Arch Linux
     permissions:
       id-token: write
       contents: write
       pull-requests: write
+    env:
+      GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
     steps:
       - name: Checkout repository
         uses: actions/checkout@v6
         with:
           fetch-depth: 0
-    env:
-      OPENCODE_MODEL: "Gemma 4 31B IT"
-      API_KEY: "${{ secrets.AQ.Ab8RN6LEcgyWQ2GQdgPW6VLx7IiTUAPyzxo3TvUG-cpfGjeL0A }}"
+
 
