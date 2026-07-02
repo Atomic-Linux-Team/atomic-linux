@@ -27,18 +27,18 @@ all: info iso
 # -----------------------------------------------------------------------------
 info:
 	@clear
-	@printf "$(CLR_CYAN) ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ $(CLR_RESET)\n"
+	@printf "$(CLR_CYAN) ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ $(CLR_RESET)\n"
 	@printf "$(CLR_MAGENTA)   █████╗ ████████╗ ██████╗ ███╗   ███╗██╗ ██████╗    $(CLR_CYAN)██╗     ██╗███╗   ██╗██╗   ██╗██╗  ██╗$(CLR_RESET)\n"
 	@printf "$(CLR_MAGENTA)  ██╔══██╗╚══██╔══╝██╔═══██╗████╗ ████║██║██╔════╝    $(CLR_CYAN)██║     ██║████╗  ██║██║   ██║╚██╗██╔╝$(CLR_RESET)\n"
 	@printf "$(CLR_MAGENTA)  ███████║   ██║   ██║   ██║██╔████╔██║██║██║         $(CLR_CYAN)██║     ██║██╔██╗ ██║██║   ██║ ╚███╔╝ $(CLR_RESET)\n"
 	@printf "$(CLR_MAGENTA)  ██╔══██║   ██║   ██║   ██║██║╚██╔╝██║██║██║         $(CLR_CYAN)██║     ██║██║╚██╗██║██║   ██║ ██╔██╗ $(CLR_RESET)\n"
 	@printf "$(CLR_MAGENTA)  ██║  ██║   ██║   ╚██████╔╝██║ ╚═╝ ██║██║╚██████╗    $(CLR_CYAN)███████╗██║██║ ╚████║╚██████╔╝██╔╝ ██╗$(CLR_RESET)\n"
 	@printf "$(CLR_MAGENTA)  ╚═╝  ╚═╝   ╚═╝    ╚═════╝ ╚═╝     ╚═╝╚═╝ ╚═════╝    $(CLR_CYAN)╚══════╝╚═╝╚═╝  ╚═══╝ ╚═════╝ ╚═╝  ╚═╝$(CLR_RESET)\n"
-	@printf "$(CLR_CYAN) ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ $(CLR_RESET)\n"
+	@printf "$(CLR_CYAN) ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ $(CLR_RESET)\n"
 	@printf "$(CLR_GREEN)  ⚛  Código Fuente:$(CLR_RESET) %s\n" "$(PROJECT_DIR)"
 	@printf "$(CLR_GREEN)  🛠️  Caché de Compilación (Externa):$(CLR_RESET) %s/\n" "$(WORK_DIR)"
 	@printf "$(CLR_GREEN)  📦 Destino de la ISO (Local):$(CLR_RESET) %s/\n" "$(OUT_DIR)"
-	@printf "$(CLR_CYAN) ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ $(CLR_RESET)\n"
+	@printf "$(CLR_CYAN) ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ $(CLR_RESET)\n"
 
 directories:
 	@mkdir -p $(WORK_DIR)
@@ -49,7 +49,7 @@ directories:
 # -----------------------------------------------------------------------------
 iso: info directories
 	@echo -e "$(CLR_CYAN)[+]$(CLR_RESET) Sincronizando directorios de desarrollo..."
-	@echo -e "\n$(CLR_YELLOW)🚀 Iniciando Atomic Build Engine...$(CLR_RESET)"
+	@echo -e "\n$(CLR_YELLOW)🚀 Iniciando Atomic Build Engine(core)...$(CLR_RESET)"
 	@echo -e "$(CLR_BG_DARK)$(CLR_RED)⚠️  Se requieren privilegios sudo para montar los entornos chroot:$(CLR_RESET)"
 	
 	@$(SUDO) mkarchiso -v -w $(WORK_DIR) -o $(OUT_DIR) $(PROJECT_DIR)
@@ -67,6 +67,4 @@ iso: info directories
 clean: info
 	@echo -e "$(CLR_YELLOW)[!] Purgando archivos pesados de compilación en $(WORK_DIR)...$(CLR_RESET)"
 	@$(SUDO) rm -rf $(WORK_DIR)
-	@echo -e "$(CLR_YELLOW)[!] Vaciando carpeta local de ISOs (out/)...$(CLR_RESET)"
-	@$(SUDO) rm -rf $(OUT_DIR)
 	@echo -e "$(CLR_GREEN)✔ Todo limpio. Sistema listo para compilar desde cero.$(CLR_RESET)"
