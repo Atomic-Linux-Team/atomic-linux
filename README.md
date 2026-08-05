@@ -8,16 +8,62 @@
 
 > _**Una experiencia de escritorio vanguardista y altamente optimizada basada en Arch Linux.**_
 
-<p align="center">
-  <a href="https://www.gnu.org/licenses/gpl-3.0"><img src="https://img.shields.io/badge/License-GPLv3-f38ba8?style=flat-square" alt="License: GPL v3" /></a>
-  <img src="https://img.shields.io/badge/Base-Arch%20Linux-89b4fa?style=flat-square&logo=arch-linux" alt="Base-Arch" />
-  <img src="https://img.shields.io/badge/WM-Hyprland-26a69a?style=flat-square&logo=wayland" alt="WM-Hyprland" />
-  <a href="https://github.com/Diamantito-cup/atomic-linux/releases"><img src="https://img.shields.io/github/v/release/Diamantito-cup/atomic-linux?style=flat-square&color=cba6f7&label=versi%C3%B3n" alt="Versión" /></a>
-  <a href="https://github.com/Diamantito-cup/atomic-linux/stargazers"><img src="https://img.shields.io/github/stars/Diamantito-cup/atomic-linux?style=flat-square&color=f9e2af" alt="Estrellas" /></a>
-  <a href="https://github.com/Diamantito-cup/atomic-linux/graphs/contributors"><img src="https://img.shields.io/github/contributors/Diamantito-cup/atomic-linux?style=flat-square&color=a6e3a1&label=colaboradores" alt="Colaboradores" /></a>
-  <a href="https://www.patreon.com/cw/Atomic_Cathedral"><img src="https://img.shields.io/badge/Patreon-Apóyame-F96854?style=flat-square&logo=patreon&logoColor=white" alt="Patreon" /></a>
-  <a href="https://discord.gg/sXP7zAhPy"><img src="https://img.shields.io/badge/Discord-Únete_al_Server-5865F2?style=flat-square&logo=discord&logoColor=white" alt="Discord" /></a>
-</p>
+<div align="center">
+  <table>
+    <tr>
+      <td align="center"><b>Licencia</b></td>
+      <td align="center"><b>Base</b></td>
+      <td align="center"><b>Compositor</b></td>
+      <td align="center"><b>Versión</b></td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.gnu.org/licenses/agpl-3.0">
+          <img src="https://img.shields.io/badge/License-AGPLv3-f38ba8?style=for-the-badge&logo=gnu&logoColor=f38ba8" alt="License: AGPL v3" />
+        </a>
+      </td>
+      <td>
+        <img src="https://img.shields.io/badge/Base-Arch_Linux-89b4fa?style=for-the-badge&logo=archlinux&logoColor=89b4fa" alt="Base-Arch" />
+      </td>
+      <td>
+        <img src="https://img.shields.io/badge/WM-Hyprland-26a69a?style=for-the-badge&logo=hyprland&logoColor=26a69a" alt="WM-Hyprland" />
+      </td>
+      <td>
+        <a href="https://github.com/Diamantito-cup/atomic-linux/releases">
+          <img src="https://img.shields.io/github/v/release/Diamantito-cup/atomic-linux?style=for-the-badge&color=cba6f7&label=Versi%C3%B3n&labelColor=1e1e2e" alt="Versión" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td align="center"><b>Comunidad</b></td>
+      <td align="center"><b>Colaboradores</b></td>
+      <td align="center"><b>Apoyo</b></td>
+      <td align="center"><b>Discord</b></td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://github.com/Diamantito-cup/atomic-linux/stargazers">
+          <img src="https://img.shields.io/github/stars/Diamantito-cup/atomic-linux?style=for-the-badge&color=f9e2af&label=Estrellas&labelColor=1e1e2e" alt="Estrellas" />
+        </a>
+      </td>
+      <td>
+        <a href="https://github.com/Diamantito-cup/atomic-linux/graphs/contributors">
+          <img src="https://img.shields.io/github/contributors/Diamantito-cup/atomic-linux?style=for-the-badge&color=a6e3a1&label=Colaboradores&labelColor=1e1e2e" alt="Colaboradores" />
+        </a>
+      </td>
+      <td>
+        <a href="https://www.patreon.com/cw/Atomic_Cathedral">
+          <img src="https://img.shields.io/badge/Patreon-Ap%C3%B3yame-fab387?style=for-the-badge&logo=patreon&logoColor=fab387" alt="Patreon" />
+        </a>
+      </td>
+      <td>
+        <a href="https://discord.gg/sXP7zAhPy">
+          <img src="https://img.shields.io/badge/Discord-%C3%9Anete-b4befe?style=for-the-badge&logo=discord&logoColor=b4befe" alt="Discord" />
+        </a>
+      </td>
+    </tr>
+  </table>
+</div>
 
 Atomic linux busca ser una opcion preconfigurada y "amigable" con el usuario, sin perder la potencia de arch linux, Atomic Linux trae preconfigurado un entorno hyprland vanguardista (con Lua), Brain_Shell (repositorio externo) y las herramientas necesarias para que funcione como un sistema estable y perfecto para aquellos devs que quieran una estetica anime, estilizar su escritorio y trbajar facilmente, ya que Atomic Linux ofrece software de desarrollo preinstalado (como VSCode, Onlyoffice, Zen-Browser y Yazi), que busca hacer sentir cómodo al usuario
 
