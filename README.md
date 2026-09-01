@@ -280,7 +280,7 @@ Atomic Linux no es solo otra distribución; es un entorno de trabajo pensado par
 
 ## 📸 Pre visualización
 
-https://github.com/user-attachments/assets/24ab2d8e-0f31-47fa-8a56-c69094f4c050
+<https://github.com/user-attachments/assets/24ab2d8e-0f31-47fa-8a56-c69094f4c050>
 
 ---
 
@@ -437,21 +437,8 @@ El árbol de este repositorio está organizado de forma modular para facilitar s
 
 ---
 
-<h1 align="center">Estrellas del repositorio</h1>
-
-Andamos bien pobres, XD
-
-<a href="https://www.star-history.com/?repos=Diamantito-cup%2Fatomic-linux.git&type=date&legend=bottom-right">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Diamantito-cup/atomic-linux.git&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=Diamantito-cup/atomic-linux.git&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=Diamantito-cup/atomic-linux.git&type=date&legend=top-left" />
- </picture>
-</a>
-
----
-
 # Colaboradores 🫂
+
 #### [@Diamantito-cup](https://github.com/Diamantito-cup) -- Desarrollador principal
 
 #### [@Brainitech](https://github.com/Brainitech) -- Desarrollador de Brain_Shell
