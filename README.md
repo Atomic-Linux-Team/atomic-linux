@@ -75,7 +75,7 @@ Atomic Linux no es solo otra distribución; es un entorno de trabajo pensado par
 
 ## 📸 Pre visualización
 
-https://github.com/user-attachments/assets/24ab2d8e-0f31-47fa-8a56-c69094f4c050
+<https://github.com/user-attachments/assets/24ab2d8e-0f31-47fa-8a56-c69094f4c050>
 
 ---
 
@@ -219,8 +219,8 @@ El árbol de este repositorio está organizado de forma modular para facilitar s
 | Componente | Tipo de Paquete | Función en Atomic Linux |
 | :--- | :--- | :--- |
 | `quickshell` | Core (AUR/Repo) | Motor de renderizado para la interfaz de Brain_Shell |
-| `brain-shell` | Exclusivo (Repo externo) | Entorno de escritorio principal y widgets |
-| `atomic-tour` | Aplicación (Repo) | Bienvenida e introducción interactiva en GTK4(todavia no integrada en esta versión) |
+| `brain-shell` | Aplicación (Repo externo) | Entorno de escritorio principal y widgets |
+| `atomic-tour` | Exclusivo (Repo) | Bienvenida e introducción interactiva en GTK4(todavia no integrada en esta versión) |
 | `greetd` | Servicio (Arch) | Demonio de inicio de sesión seguro en segundo plano |
 | `greetd-regreet` | Interfaz (Arch) | Pantalla de login visual en GTK4 nativo |
 | `hypridle` | Utilidad (Arch) | Gestor de energía y suspensión del sistema |
@@ -228,21 +228,8 @@ El árbol de este repositorio está organizado de forma modular para facilitar s
 
 ---
 
-<h1 align="center">Estrellas del repositorio</h1>
-
-Andamos bien pobres, XD
-
-<a href="https://www.star-history.com/?repos=Diamantito-cup%2Fatomic-linux.git&type=date&legend=bottom-right">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Diamantito-cup/atomic-linux.git&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=Diamantito-cup/atomic-linux.git&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=Diamantito-cup/atomic-linux.git&type=date&legend=top-left" />
- </picture>
-</a>
-
----
-
 # Colaboradores 🫂
+
 #### [@Diamantito-cup](https://github.com/Diamantito-cup) -- Desarrollador principal
 
 #### [@Brainitech](https://github.com/Brainitech) -- Desarrollador de Brain_Shell
