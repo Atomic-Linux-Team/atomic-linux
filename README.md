@@ -3,19 +3,72 @@
 - [Español](#español)
 
 # English
-# About the Atomic-Linux Project
+<h1 align="center">Sobre el Atomic-Linux Project</h1>
 
 ---
 
-[logo](https://github.com/user-attachments/assets/d9f3e8e0-f0a7-42b3-a671-9502c4ae6b69)
+<p align="center">
+<img width="225" height="225" alt="logo" src="https://github.com/user-attachments/assets/d9f3e8e0-f0a7-42b3-a671-9502c4ae6b69" />
+</p>
 
 > **A cutting-edge and highly optimized desktop experience based on Arch Linux.**
 
-| **License** | **Base** | **Compositor** | **Version** |
-| :--- | :--- | :--- | :--- |
-| [License: AGPL v3](https://www.gnu.org/licenses/agpl-3.0) ([image](https://img.shields.io/badge/License-AGPLv3-f38ba8?style=for-the-badge&logo=gnu&logoColor=f38ba8)) | [Base-Arch](https://img.shields.io/badge/Base-Arch_Linux-89b4fa?style=for-the-badge&logo=archlinux&logoColor=89b4fa) | [WM-Hyprland](https://img.shields.io/badge/WM-Hyprland-26a69a?style=for-the-badge&logo=hyprland&logoColor=26a69a) | [Version](https://github.com/Diamantito-cup/atomic-linux/releases) ([image](https://img.shields.io/github/v/release/Diamantito-cup/atomic-linux?style=for-the-badge&color=cba6f7&label=Version&labelColor=1e1e2e)) |
-| **Community** | **Contributors** | **Support** | **Discord** |
-| [Stars](https://github.com/Diamantito-cup/atomic-linux/stargazers) ([image](https://img.shields.io/github/stars/Diamantito-cup/atomic-linux?style=for-the-badge&color=f9e2af&label=Stars&labelColor=1e1e2e)) | [Contributors](https://github.com/Diamantito-cup/atomic-linux/graphs/contributors) ([image](https://img.shields.io/github/contributors/Diamantito-cup/atomic-linux?style=for-the-badge&color=a6e3a1&label=Contributors&labelColor=1e1e2e)) | [Patreon](https://www.patreon.com/cw/Atomic_Cathedral) ([image](https://img.shields.io/badge/Patreon-Support_me-fab387?style=for-the-badge&logo=patreon&logoColor=fab387)) | [Discord](https://discord.gg/sXP7zAhPy) ([image](https://img.shields.io/badge/Discord-Join-b4befe?style=for-the-badge&logo=discord&logoColor=b4befe)) |
+<div align="center">
+  <table>
+    <tr>
+      <td align="center"><b>License</b></td>
+      <td align="center"><b>Base</b></td>
+      <td align="center"><b>Compositor</b></td>
+      <td align="center"><b>Version</b></td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.gnu.org/licenses/agpl-3.0">
+          <img src="https://img.shields.io/badge/License-AGPLv3-f38ba8?style=for-the-badge&logo=gnu&logoColor=f38ba8" alt="License: AGPL v3" />
+        </a>
+      </td>
+      <td>
+        <img src="https://img.shields.io/badge/Base-Arch_Linux-89b4fa?style=for-the-badge&logo=archlinux&logoColor=89b4fa" alt="Base-Arch" />
+      </td>
+      <td>
+        <img src="https://img.shields.io/badge/WM-Hyprland-26a69a?style=for-the-badge&logo=hyprland&logoColor=26a69a" alt="WM-Hyprland" />
+      </td>
+      <td>
+        <a href="https://github.com/Diamantito-cup/atomic-linux/releases">
+          <img src="https://img.shields.io/github/v/release/Diamantito-cup/atomic-linux?style=for-the-badge&color=cba6f7&label=Versi%C3%B3n&labelColor=1e1e2e" alt="Version" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td align="center"><b>Comunity</b></td>
+      <td align="center"><b>Contributors</b></td>
+      <td align="center"><b>Support</b></td>
+      <td align="center"><b>Discord</b></td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://github.com/Diamantito-cup/atomic-linux/stargazers">
+          <img src="https://img.shields.io/github/stars/Diamantito-cup/atomic-linux?style=for-the-badge&color=f9e2af&label=Estrellas&labelColor=1e1e2e" alt="Stars" />
+        </a>
+      </td>
+      <td>
+        <a href="https://github.com/Diamantito-cup/atomic-linux/graphs/contributors">
+          <img src="https://img.shields.io/github/contributors/Diamantito-cup/atomic-linux?style=for-the-badge&color=a6e3a1&label=Colaboradores&labelColor=1e1e2e" alt="Contributors" />
+        </a>
+      </td>
+      <td>
+        <a href="https://www.patreon.com/cw/Atomic_Cathedral">
+          <img src="https://img.shields.io/badge/Patreon-Ap%C3%B3yame-fab387?style=for-the-badge&logo=patreon&logoColor=fab387" alt="Patreon" />
+        </a>
+      </td>
+      <td>
+        <a href="https://discord.gg/sXP7zAhPy">
+          <img src="https://img.shields.io/badge/Discord-%C3%9Anete-b4befe?style=for-the-badge&logo=discord&logoColor=b4befe" alt="Discord" />
+        </a>
+      </td>
+    </tr>
+  </table>
+</div>
 
 Atomic Linux aims to be a preconfigured and "user-friendly" option without sacrificing the power of Arch Linux. It comes with a cutting-edge Hyprland environment preconfigured with Lua, [Brain_Shell](https://github.com/Brainitech/Brain_Shell) (an external repository), and the tools needed to provide a stable system.
 
@@ -270,7 +323,7 @@ We're open to suggestions and recommendations, bug fixes, or any ideas that coul
   </table>
 </div>
 
-Atomic linux busca ser una opcion preconfigurada y "amigable" con el usuario, sin perder la potencia de arch linux, Atomic Linux trae preconfigurado un entorno hyprland vanguardista (con Lua), Brain_Shell (repositorio externo) y las herramientas necesarias para que funcione como un sistema estable y perfecto para aquellos devs que quieran una estetica anime, estilizar su escritorio y trbajar facilmente, ya que Atomic Linux ofrece software de desarrollo preinstalado (como VSCode, Onlyoffice, Zen-Browser y Yazi), que busca hacer sentir cómodo al usuario
+Atomic linux busca ser una opcion preconfigurada y "amigable" con el usuario, sin perder la potencia de arch linux, Atomic Linux trae preconfigurado un entorno hyprland vanguardista (con Lua), [Brain_Shell](https://github.com/Brainitech/Brain_Shell) (repositorio externo) y las herramientas necesarias para que funcione como un sistema estable y perfecto para aquellos devs que quieran una estetica anime, estilizar su escritorio y trbajar facilmente, ya que Atomic Linux ofrece software de desarrollo preinstalado (como VSCode, Onlyoffice, Zen-Browser y Yazi), que busca hacer sentir cómodo al usuario
 
 ---
 
