@@ -100,7 +100,8 @@ https://github.com/user-attachments/assets/24ab2d8e-0f31-47fa-8a56-c69094f4c050
 
 The repository tree is organized in a modular way to facilitate its compilation with `archiso` and the recently integrated `Makefile`:
 
-📂 Click to expand the repository's full structure
+<details>
+<summary>📂 Click to expand the repository's full structure</summary>
 
 ```text
 📦 Project Structure (Main Components)
@@ -218,6 +219,8 @@ The repository tree is organized in a modular way to facilitate its compilation 
     ├── splash.png
     └── syslinux.cfg
 ```
+
+</details>
 
 ---
 
