@@ -1,5 +1,3 @@
-local scheme = require("scheme.current")
-
 return {
 	------------------
 	---- HYPRLAND ----
@@ -32,7 +30,6 @@ return {
 	shadowEnabled = true,
 	shadowRange = 15,
 	shadowRenderPower = 4,
-	shadowColour = "rgba(" .. scheme.inversePrimary .. "10)",
 
 	-- Gaps
 	workspaceGaps = 20,
@@ -44,8 +41,6 @@ return {
 	windowOpacity = 0.95,
 	windowRounding = 15,
 	windowBorderSize = 1,
-	activeWindowBorderColour = "rgba(" .. scheme.primary .. "e6)",
-	inactiveWindowBorderColour = "rgba(" .. scheme.onSurfaceVariant .. "11)",
 
 	-- Misc
 	volumeStep = 10,
