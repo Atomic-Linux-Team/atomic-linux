@@ -1,4 +1,4 @@
-- [English](./README.eng.md)
+- [Español](./README.md)
 
 <h1 align="center">Sobre el Atomic-Linux Project</h1>
 
@@ -8,15 +8,15 @@
 <img width="225" height="225" alt="logo" src="https://github.com/user-attachments/assets/d9f3e8e0-f0a7-42b3-a671-9502c4ae6b69" />
 </p>
 
-> _**Una experiencia de escritorio vanguardista y altamente optimizada basada en Arch Linux.**_
+> **A cutting-edge and highly optimized desktop experience based on Arch Linux.**
 
 <div align="center">
   <table>
     <tr>
-      <td align="center"><b>Licencia</b></td>
+      <td align="center"><b>License</b></td>
       <td align="center"><b>Base</b></td>
       <td align="center"><b>Compositor</b></td>
-      <td align="center"><b>Versión</b></td>
+      <td align="center"><b>Version</b></td>
     </tr>
     <tr>
       <td>
@@ -32,25 +32,25 @@
       </td>
       <td>
         <a href="https://github.com/Diamantito-cup/atomic-linux/releases">
-          <img src="https://img.shields.io/github/v/release/Diamantito-cup/atomic-linux?style=for-the-badge&color=cba6f7&label=Versi%C3%B3n&labelColor=1e1e2e" alt="Versión" />
+          <img src="https://img.shields.io/github/v/release/Diamantito-cup/atomic-linux?style=for-the-badge&color=cba6f7&label=Versi%C3%B3n&labelColor=1e1e2e" alt="Version" />
         </a>
       </td>
     </tr>
     <tr>
-      <td align="center"><b>Comunidad</b></td>
-      <td align="center"><b>Colaboradores</b></td>
-      <td align="center"><b>Apoyo</b></td>
+      <td align="center"><b>Comunity</b></td>
+      <td align="center"><b>Contributors</b></td>
+      <td align="center"><b>Support</b></td>
       <td align="center"><b>Discord</b></td>
     </tr>
     <tr>
       <td>
         <a href="https://github.com/Diamantito-cup/atomic-linux/stargazers">
-          <img src="https://img.shields.io/github/stars/Diamantito-cup/atomic-linux?style=for-the-badge&color=f9e2af&label=Estrellas&labelColor=1e1e2e" alt="Estrellas" />
+          <img src="https://img.shields.io/github/stars/Diamantito-cup/atomic-linux?style=for-the-badge&color=f9e2af&label=Estrellas&labelColor=1e1e2e" alt="Stars" />
         </a>
       </td>
       <td>
         <a href="https://github.com/Diamantito-cup/atomic-linux/graphs/contributors">
-          <img src="https://img.shields.io/github/contributors/Diamantito-cup/atomic-linux?style=for-the-badge&color=a6e3a1&label=Colaboradores&labelColor=1e1e2e" alt="Colaboradores" />
+          <img src="https://img.shields.io/github/contributors/Diamantito-cup/atomic-linux?style=for-the-badge&color=a6e3a1&label=Colaboradores&labelColor=1e1e2e" alt="Contributors" />
         </a>
       </td>
       <td>
@@ -67,39 +67,41 @@
   </table>
 </div>
 
-Atomic linux busca ser una opcion preconfigurada y "amigable" con el usuario, sin perder la potencia de arch linux, Atomic Linux trae preconfigurado un entorno hyprland vanguardista (con Lua), [Brain_Shell](https://github.com/Brainitech/Brain_Shell) (repositorio externo) y las herramientas necesarias para que funcione como un sistema estable y perfecto para aquellos devs que quieran una estetica anime, estilizar su escritorio y trbajar facilmente, ya que Atomic Linux ofrece software de desarrollo preinstalado (como VSCode, Onlyoffice, Zen-Browser y Yazi), que busca hacer sentir cómodo al usuario
+Atomic Linux aims to be a preconfigured and "user-friendly" option without sacrificing the power of Arch Linux. It comes with a cutting-edge Hyprland environment preconfigured with Lua, [Brain_Shell](https://github.com/Brainitech/Brain_Shell) (an external repository), and the tools needed to provide a stable system.
+
+It is designed for developers who want an anime-inspired aesthetic, a highly customized desktop, and a comfortable development environment. Atomic Linux also comes with development software preinstalled, such as VS Code, OnlyOffice, Zen Browser, and Yazi, making it easier for users to get started.
 
 ---
 
-# 👁️ El Entorno Visual
+# 👁️ The Visual Environment
 
-Atomic Linux no es solo otra distribución; es un entorno de trabajo pensado para el rendimiento y la estética ciberpunk moderna. Impulsado por el compositor dinámico **Hyprland** y la recien lanzada **Brain_Shell** (desarrollada nativamente sobre Quickshell), ofrece transiciones fluidas, desenfoques avanzados y una cohesión visual total en GTK4/Libadwaita.
+Atomic Linux is not just another distribution; it is a work environment designed for performance and a modern cyberpunk aesthetic. Powered by the dynamic **Hyprland** compositor and the newly released **Brain_Shell** (developed natively with Quickshell), it offers fluid transitions, advanced blurring, and a cohesive visual experience across GTK4/Libadwaita.
 
-## 📸 Pre visualización
+## 📸 Preview
 
-<https://github.com/user-attachments/assets/24ab2d8e-0f31-47fa-8a56-c69094f4c050>
-
----
-
-# ✨ Características Principales
-
-* **🚀 Rendimiento Atómico:** ISO optimizada al extremo (menos de 4.0 GB) con compresión XZ avanzada para un arranque ultra rápido.
-* **🧠 Brain_Shell Integrada:** Interfaz de vanguardia basada en tecnologías QML/Modernas que sustituye los paneles tradicionales por un entorno inteligente.
-* **🛡️ Login Elegante:** Pantalla de inicio de sesión gestionada por `greetd` + `ReGreet` en GTK4 nativo bajo Wayland.
-* **📦 Atomic-Repo Personalizado:** Repositorio propio con herramientas exclusivas del sistema para actualizaciones modulares limpias.
-* **🗺️ Atomic Tour:** Una aplicación de bienvenida interactiva construida en C y GTK4 para guiarte en tus primeros pasos por el sistema.
+https://github.com/user-attachments/assets/24ab2d8e-0f31-47fa-8a56-c69094f4c050
 
 ---
 
-# 🛠️ Estructura del Repositorio
+# ✨ Main Features
 
-El árbol de este repositorio está organizado de forma modular para facilitar su compilación con `archiso` y la recientemente integrada `Makefile`:
+- **🚀 Atomic Performance:** An extremely optimized ISO (under 4.0 GB) with advanced XZ compression for ultra-fast boot times.
+- **🧠 Integrated Brain_Shell:** A cutting-edge interface based on modern QML technologies that replaces traditional panels with an intelligent environment.
+- **🛡️ Elegant Login:** A login screen managed by `greetd` + `ReGreet`, using native GTK4 under Wayland.
+- **📦 Custom Atomic-Repo:** A custom repository containing exclusive system tools for clean, modular updates.
+- **🗺️ Atomic Tour:** An interactive welcome application built with C and GTK4 to guide you through your first steps with the system.
+
+---
+
+# 🛠️ Repository Structure
+
+The repository tree is organized in a modular way to facilitate its compilation with `archiso` and the recently integrated `Makefile`:
 
 <details>
-<summary>📂 Click para desplegar la estructura completa del repositorio</summary>
-  
+<summary>📂 Click to expand the repository's full structure</summary>
+
 ```text
-📦 Estructura del Proyecto (Ejes Principales)
+📦 Project Structure (Main Components)
 .
 ├── .github
 │   └── workflows
@@ -213,33 +215,42 @@ El árbol de este repositorio está organizado de forma modular para facilitar s
     ├── archiso_tail.cfg
     ├── splash.png
     └── syslinux.cfg
-
 ```
 
 </details>
 
 ---
 
-# Componentes integrados
+# Integrated Components
 
-| Componente | Tipo de Paquete | Función en Atomic Linux |
+| Component | Package Type | Function in Atomic Linux |
 | :--- | :--- | :--- |
-| `quickshell` | Core (AUR/Repo) | Motor de renderizado para la interfaz de Brain_Shell |
-| `brain-shell` | Aplicación (Repo) | Entorno de escritorio principal y widgets |
-| `atomic-tour` | Exclusivo (Repo externo) | Bienvenida e introducción interactiva en GTK4(todavia no integrada en esta versión) |
-| `greetd` | Servicio (Arch) | Demonio de inicio de sesión seguro en segundo plano |
-| `greetd-regreet` | Interfaz (Arch) | Pantalla de login visual en GTK4 nativo |
-| `hypridle` | Utilidad (Arch) | Gestor de energía y suspensión del sistema |
-| `cliphist` | Utilidad (Arch) | Historial de portapapeles para texto e imágenes |
+| `quickshell` | Core (AUR/Repo) | Rendering engine for the Brain_Shell interface |
+| `brain-shell` | App (Repo) | Main desktop environment and widgets |
+| `atomic-tour` | Exclusive (External Repo) | Welcome and interactive introduction in GTK4 (not integrated in this version) |
+| `greetd` | Service (Arch) | Secure login daemon running in the background |
+| `greetd-regreet` | Interface (Arch) | Visual login screen in native GTK4 |
+| `hypridle` | Utility (Arch) | Power management and system suspend |
+| `cliphist` | Utility (Arch) | Clipboard history for text and images |
 
 ---
 
-# Colaboradores 🫂
+# Repository Stars
 
-#### [@Diamantito-cup](https://github.com/Diamantito-cup) -- Desarrollador principal
+We're pretty poor, XD
 
-#### [@Brainitech](https://github.com/Brainitech) -- Desarrollador de Brain_Shell
+[Star History Chart](https://www.star-history.com/?repos=Diamantito-cup%2Fatomic-linux.git&time=date&legend=bottom-right) ([image](https://api.star-history.com/chart?repos=Diamantito-cup/atomic-linux.git&time=date&legend=top-left))
 
-Estamos abiertos a sugerencias y recomendaciones, arreglo de bugs o alguna idea para que el sistema sea más seguro, eficiente y entretenido para los demás usuarios.
+---
 
-> Que tenga buen día :3
+# Contributors 🫂
+
+#### [@Diamantito-cup](https://github.com/Diamantito-cup) -- Lead Developer
+
+#### [@Brainitech](https://github.com/Brainitech) -- Brain_Shell Developer
+
+#### [@Axxel-otl](https://github.com/Axxel-otl) -- Documentation Translator
+
+We're open to suggestions and recommendations, bug fixes, or any ideas that could make the system safer, more efficient, and more enjoyable for other users.
+
+> Have a nice day! :3
