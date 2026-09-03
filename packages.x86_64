@@ -115,6 +115,7 @@ slurp
 wtype
 cliphist
 nvim
+vscodium-bin
 
 # --- SDDM & THEME DEPENDENCIES ---
 sddm
