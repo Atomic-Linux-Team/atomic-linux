@@ -1,8 +1,5 @@
-# Atomic Linux
-- [English](#english)
-- [Español](#español)
+- [English](./README.eng.md)
 
-# Español
 <h1 align="center">Sobre el Atomic-Linux Project</h1>
 
 ---
