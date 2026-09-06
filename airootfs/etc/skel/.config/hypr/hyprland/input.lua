@@ -1,25 +1,17 @@
-local vars = require("variables")
+-- hyprland.input.lua
+-- Input settings for Atomic Linux ISO
 
-hl.config({
-	input = {
-		kb_layout = "latam",
-		numlock_by_default = false,
-		repeat_delay = 250,
-		repeat_rate = 35,
-		focus_on_close = 1,
+-- Mouse settings
+mouse_scroll_speed = 1.0
+natural_scroll = true
 
-		touchpad = {
-			natural_scroll = true,
-			disable_while_typing = vars.touchpadDisableTyping,
-			scroll_factor = vars.touchpadScrollFactor,
-		},
-	},
-
-	binds = {
-		scroll_event_delay = 0,
-	},
-
-	cursor = {
-		hotspot_padding = 1,
-	},
-})
+-- Touchpad configuration (if a touchpad is present)
+input = {
+    touchpad = {
+        enable = true,
+        natural_scroll = true,
+        accel_speed = 0.15,
+        tap_to_click = true,
+        click_method = "clickfinger",
+    }
+}

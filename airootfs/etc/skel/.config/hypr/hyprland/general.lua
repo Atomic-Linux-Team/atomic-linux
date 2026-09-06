@@ -1,34 +1,15 @@
-local vars = require("variables")
+-- hyprland.general.lua
+-- General Hyprland settings for Atomic Linux ISO
 
-hl.config({
-    general = {
-        layout          = "dwindle",
+-- Cursor theme and size
+cursor_theme = "DMZ-White"
+cursor_size = 24
 
-        allow_tearing   = false, -- Allows `immediate` window rule to work
+-- Default wallpaper (adjust path as needed)
+wallpaper = "/usr/share/backgrounds/archlinux/arch-wallpaper.jpg"
 
-        gaps_workspaces = vars.workspaceGaps,
-        gaps_in         = vars.windowGapsIn,
-        gaps_out        = vars.windowGapsOut,
-        border_size     = vars.windowBorderSize,
+-- Enable animations globally
+animations = true
 
-        col             = {
-            active_border   = vars.activeWindowBorderColour,
-            inactive_border = vars.inactiveWindowBorderColour,
-        },
-    },
-
-    dwindle = {
-        preserve_split = true,
-        smart_split    = false,
-        smart_resizing = true,
-    },
-
-    scrolling = {
-        fullscreen_on_one_column = true,
-        focus_fit_method         = 1,
-        column_width             = 0.5,
-        follow_focus             = true,
-        follow_min_visible       = 0.0,
-        explicit_column_widths   = "0.35, 0.5, 0.65, 1.0",
-    },
-})
+-- Default layout
+default_layout = "dwindle"

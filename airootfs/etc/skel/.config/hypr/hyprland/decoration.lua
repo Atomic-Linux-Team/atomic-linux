@@ -1,26 +1,16 @@
-local vars = require("variables")
+-- hyprland.decoration.lua
+-- Decoration settings (rounded corners, shadows)
 
-hl.config({
-    decoration = {
-        rounding = vars.windowRounding,
+-- Window border size
+border_size = 2
 
-        blur = {
-            enabled           = vars.blurEnabled,
-            xray              = vars.blurXray,
-            special           = vars.blurSpecialWs,
-            ignore_opacity    = true, -- Allows opacity blurring
-            new_optimizations = true,
-            popups            = vars.blurPopups,
-            input_methods     = vars.blurInputMethods,
-            size              = vars.blurSize,
-            passes            = vars.blurPasses,
-        },
+-- Rounded corners radius
+rounding = 8
 
-        shadow = {
-            enabled      = vars.shadowEnabled,
-            range        = vars.shadowRange,
-            render_power = vars.shadowRenderPower,
-            color        = vars.shadowColour,
-        },
-    },
-})
+-- Drop shadow (simple example)
+shadow = {
+    enabled = true,
+    radius = 12,
+    opacity = 0.4,
+    offset = { x = 4, y = 4 }
+}
